@@ -9,25 +9,28 @@ body {
 header {
     display: flex;
     height: 860px;
-    width: 100%;
     background-color: #673AB7;
     background-image: url(images/pexels-dan-cristian-pădureț-1193743.jpg);
     background-size: 100% 100%;
+    margin-bottom: auto;
 }
 header h1 {
     margin: 0px;
     font-size: 5rem;
-    color: #512DA8;
+    color: #FFFFFF;
+    padding:12px 10px 12px 30px;
+    filter: drop-shadow(5px 5px 9px #512DA8);    
+    -webkit-text-stroke: 1px #0e0929;
 }
 
 header nav {
     margin: 0px;
+    justify-content: flex-end;
 }
 
 header nav ul {
     margin: 0px;
-    justify-content: flex-end;
-    padding-top:38px;
+    padding-top:47px;
 }
 
 header nav li {
@@ -39,4 +42,9 @@ header nav li a {
     text-decoration: none;
     color: #512DA8;
     width: 120px;
+}
+
+#home-section p {
+    width: 85%;
+    margin: 0 auto;
 }
