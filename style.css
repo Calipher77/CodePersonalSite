@@ -23,26 +23,36 @@ header h1 {
     -webkit-text-stroke: 1px #0e0929;
 }
 
-header nav {
+nav {
     margin: 0px;
     justify-content: flex-end;
+    width: 100%;
+    background-color: #FFC107;
+    height: 35px;
 }
 
-header nav ul {
+nav ul {
     margin: 0px;
-    padding-top:47px;
+    padding-top:7px;
 }
 
-header nav li {
+nav li {
     display: inline;
     padding-left: 30px;
 }
 
-header nav li a {
+nav li a {
     text-decoration: none;
-    color: #512DA8;
-    width: 120px;
+    color: #000;
+    padding: 8px 25px;
 }
+
+nav li a:hover {
+    text-decoration: none;
+    color: #FFC107;
+    background-color: #000;
+}
+
 
 #home-section p {
     width: 85%;
